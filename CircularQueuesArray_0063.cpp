@@ -137,6 +137,11 @@ int main() {
 				cout << "Invalid option!!" << endl;
 				break;
 			}
+			}
+		}
+		catch (exeption& e) {
+			cout << "Check the values entered." << endl;
 		}
 	}
+
 }
