@@ -106,15 +106,37 @@ int main() {
 	while (true) {
 		try {
 			cout << "Menu" << endl;
-			out << "1. Implementasi insert operation" << endl;
-			out << "2. Implementasi delete operation" << endl;
-			out << "3. Display values" << endl;
-			out << "4. Exit" << endl;
-			out << "Enter your choice (1-4): ";
+			cout << "1. Implementasi insert operation" << endl;
+			cout << "2. Implementasi delete operation" << endl;
+			cout << "3. Display values" << endl;
+			cout << "4. Exit" << endl;
+			cout << "Enter your choice (1-4): ";
 			cin >> ch;
 			cout << endl;
 
+			switch (ch) {
+			case '1': {
 
+				q.insert();
+				break;
+			}
+			case '2': {
+
+				q.remove();
+				break;
+			}
+			case '3': {
+
+				q.display();
+				break;
+			}
+			case '4': {
+				return 0;
+			}
+			default: {
+				cout << "Invalid option!!" << endl;
+				break;
+			}
 		}
 	}
 }
