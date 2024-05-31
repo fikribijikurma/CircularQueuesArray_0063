@@ -102,4 +102,19 @@ public:
 int main() {
 	Queues q;
 	char ch;
+
+	while (true) {
+		try {
+			cout << "Menu" << endl;
+			out << "1. Implementasi insert operation" << endl;
+			out << "2. Implementasi delete operation" << endl;
+			out << "3. Display values" << endl;
+			out << "4. Exit" << endl;
+			out << "Enter your choice (1-4): ";
+			cin >> ch;
+			cout << endl;
+
+
+		}
+	}
 }
