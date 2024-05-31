@@ -139,9 +139,10 @@ int main() {
 			}
 			}
 		}
-		catch (exeption& e) {
+		catch (exception& e) {
 			cout << "Check the values entered." << endl;
 		}
 	}
 
+	return 0;
 }
